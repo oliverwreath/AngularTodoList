@@ -1,5 +1,5 @@
 # BuildStatus
-[![Build Status](https://travis-ci.org/oliverwreath/AngularCommonEngine.svg?branch=master)](https://travis-ci.org/oliverwreath/AngularCommonEngine)
+[![Build Status](https://travis-ci.org/oliverwreath/MyTodoList.svg?branch=master)](https://travis-ci.org/oliverwreath/MyTodoList)
 
 # MyTodoList
 
