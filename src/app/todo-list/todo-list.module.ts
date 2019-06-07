@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { TodoListComponent } from './todo-list.component';
 
 @NgModule({
-  declarations: [TodoListComponent],
+  declarations: [
+    TodoListComponent
+  ],
   imports: [
     CommonModule
   ],
