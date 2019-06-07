@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {TodoListService} from './todo-list.service';
+import {Todo} from './todo.model';
 
 @Component({
   selector: 'app-todo-list',
@@ -23,7 +24,11 @@ export class TodoListComponent implements OnInit {
     }
   }
 
-  getList(): string[] {
+  getList(): Todo[] {
     return this.todoListService.getList();
+  }
+
+  remove(i: number): void {
+    this.todoListService.remove(i);
   }
 }
