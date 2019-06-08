@@ -75,6 +75,20 @@ export class TodoListComponent implements OnInit {
     return this.todoListService.getAllByCompleted(true);
   }
 
+  getAllList(): Todo[] {
+    return this.todoListService.getList();
+  }
+
+  allCompleted(): boolean {
+    return this.getAllList().length === this.getCompletedList().length;
+  }
+
+  setAllTo(completed: boolean): void {
+    this.getAllList().forEach((todo) => {
+      todo.setCompleted(completed);
+    });
+  }
+
   setStatus(status: number): void {
     this.status = status;
   }

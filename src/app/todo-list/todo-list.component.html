@@ -12,6 +12,17 @@
 
   <!-- Begin of main -->
   <section class="main" *ngIf="getList().length">
+    <input
+      id="toggle-all"
+      class="toggle-all"
+      type="checkbox"
+      *ngIf="getAllList().length"
+      #toggleall
+      [checked]="allCompleted()"
+      (click)="setAllTo(toggleall.checked)"
+    >
+    <label for="toggle-all"></label>
+
     <ul class="todo-list">
       <li *ngFor="let todo of getList(); index as i"
           [class.completed]="todo.done"

@@ -31,4 +31,8 @@ export class Todo {
   toggleCompletion(): void {
     this.completed = !this.completed;
   }
+
+  setCompleted(completed: boolean): void {
+    this.completed = completed;
+  }
 }
