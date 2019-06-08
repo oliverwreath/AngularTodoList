@@ -22,4 +22,12 @@ export class TodoListService {
   getList(): Todo[] {
     return this.list;
   }
+
+  getAllByCompleted(completed: boolean): Todo[] {
+    return this.list.filter(todo => todo.done === completed);
+  }
+
+  removeCompleted(): void {
+    this.list = this.getAllByCompleted(false);
+  }
 }
