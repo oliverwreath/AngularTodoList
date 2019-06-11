@@ -1,4 +1,5 @@
 # BuildStatus
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d2806465298e4d6ca9c11a2fb86a9f03)](https://app.codacy.com/app/oliverwreath/AngularTodoList?utm_source=github.com&utm_medium=referral&utm_content=oliverwreath/AngularTodoList&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/oliverwreath/MyTodoList.svg?branch=master)](https://travis-ci.org/oliverwreath/MyTodoList)
 
 # MyTodoList
